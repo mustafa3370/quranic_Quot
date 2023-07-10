@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quranic Quote</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="border border-black border-3 my-2 p-2 bg-light">
+            Quote of the Day
+            <p>Press the button below to recieve a Quranic !</p>
+          </h1>
+          <img
+            src="img/مخطوطة_القرآن_الكريم_،_القرآن_الكريم_مزخرفة.svg.png"
+            alt="قران كريم"
+            class="w-10 rounded rounded-circle border border-black border-5"
+          />
+          <p class="text-center bg-light border border-danger border-2 my-2 p-5 font" id="Quranic">
+          </p>
+          <p class="text-center font" id="surah">
+          </p>
+          <button onclick="generateQuote();" class="btn btn-outline-dark btn-lg">Click</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
